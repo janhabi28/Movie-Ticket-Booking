@@ -1,0 +1,6 @@
+<Resource name="jdbc/MovieDB" auth="Container"
+          type="javax.sql.DataSource"
+          maxTotal="20" maxIdle="10" maxWaitMillis="-1"
+          username="root" password="janhabi2004"
+          driverClassName="com.mysql.cj.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/movieticketdb?useSSL=false&amp;serverTimezone=UTC"/>
